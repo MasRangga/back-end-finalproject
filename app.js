@@ -10,6 +10,7 @@ const errorHandler = require("./middleware/error-handler-middleware");
 
 const app = express();
 
+const a = "sa";
 // middleware
 app.use(cookieParser());
 app.use(express.json());
